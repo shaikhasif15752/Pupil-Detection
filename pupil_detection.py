@@ -47,7 +47,7 @@ if not args.get("video", False):
 # otherwise, grab a reference to the video file
 else:
     vs = cv2.VideoCapture(args["video"])
-    vs.set(cv2.CAP_PROP_POS_MSEC, 33000)
+
 
 PADDING_X = 5
 PADDING_Y = 3
